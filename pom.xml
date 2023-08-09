@@ -34,6 +34,22 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Include JUnit Jupiter for testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Add missing dependency -->
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>ExceptionEnum</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
